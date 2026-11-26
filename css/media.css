@@ -1,0 +1,389 @@
+@media (max-width: 1240px) {
+    .app_download_img img {
+        left: 40px;
+    }
+
+    .app_download_section {
+        max-width: 98%;
+    }
+}
+
+@media (max-width: 1155px) {
+    .location_section{
+        text-align: center;
+    }    
+    .location_section img {
+        max-width: 130px;
+    }
+}
+
+@media (max-width: 1052px) {
+    .bottom_header_left_content h1 {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1045px) {
+    .location_section img {
+        max-width: 100px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .app_download_img {
+        grid-row: 2;
+    }
+
+    .app_download_img img {
+        top: -19px;
+    }
+
+    .right_content_app_download {
+        grid-column: 2 span;
+        justify-self: start;
+        margin-left: 30px;
+    }
+
+    .app_download_img {
+        margin-top: 4rem;
+    }
+
+    .app_download_section {
+        overflow: hidden;
+    }
+
+    .location_section img:nth-child(4) {
+        top: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .food_delivery {
+        top: -1rem;
+    }
+
+    .bottom_header {
+        margin-top: 2rem;
+    }
+
+    .grid_footer{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .grid_footer .footer_links:nth-child(2){
+        justify-self: center;
+    }
+
+    .site_info_footer{
+        grid-row: 2;
+        grid-column: 2 span;
+        justify-self: center;
+        margin-top: 2rem;
+    }
+
+    .logo_footer h6{
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 891px) {
+    .products_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .right_content_app_download h6 {
+        font-size: 20px;
+    }
+
+    .right_content_app_download h4 {
+        font-size: 36px;
+    }
+
+    .right_content_app_download p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 876px) {
+    .cart_action {
+        padding: 5px 16px;
+    }
+
+    .cart_action span {
+        font-size: 18px;
+    }
+
+    .order_button {
+        font-size: 18px;
+    }
+
+    .food_order_action {
+        max-width: 90%;
+    }
+
+    .food_delivery div span {
+        font-size: 20px;
+    }
+
+    .food_delivery>span {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 835px) {
+    .menu_icon svg {
+        display: none;
+    }
+
+    .mobile_menu {
+        display: none;
+    }
+
+}
+
+@media (max-width: 834px) {
+    .menu_nav {
+        display: none;
+    }
+
+    .navigation {
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .nav_link {
+        justify-self: center;
+    }
+
+    .menu_icon {
+        justify-self: flex-end;
+    }
+
+    .mobile_menu {
+        width: 200px;
+        background-color: #fff;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        border: 1px solid var(--color_7D7C7C);
+        padding: 1rem;
+        line-height: 50px;
+        transform: translateX(-300px);
+        transition: all 250ms ease-out;
+        z-index: 100;
+    }
+
+    .mobile_menu ul li a {
+        color: var(--color_7D7C7C);
+        font-weight: 500;
+    }
+
+    .mobile_menu ul li:first-child a {
+        color: var(--color_C90000);
+        font-weight: 600;
+    }
+
+    #close_icon {
+        display: none;
+        color: var(--color_323232);
+    }
+
+    #side_bar_menu:checked+label+.mobile_menu {
+        transform: translateX(0);
+    }
+
+    #side_bar_menu:checked+label svg:first-child {
+        display: none;
+
+    }
+
+    #side_bar_menu:checked+label svg:last-child {
+        display: block;
+
+    }
+
+}
+
+@media (max-width: 814px) {
+    .bottom_header_left_content h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .bottom_header_left_content p {
+        font-size: 16px;
+    }
+
+    .location_section h6 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 738px) {
+    .bottom_header_left_content h1 {
+        font-size: 35px;
+        line-height: 55px;
+    }
+
+    .app_download_img img {
+        top: -15px;
+    }
+
+    .bottom_header_left_content p {
+        font-size: 13px;
+    }
+
+    .food_order span:first-child {
+        font-size: 14px;
+    }
+
+    .food_order span:last-child {
+        font-size: 20px;
+    }
+
+    .order_button {
+        font-size: 16px;
+    }
+
+    .food_delivery div span {
+        font-size: 16px;
+    }
+
+    .food_delivery span {
+        font-size: 12px;
+    }
+
+    .food_delivery div svg {
+        width: 22px;
+    }
+
+    .food_delivery {
+        left: -80px;
+    }
+}
+
+@media (max-width: 688px) {
+    .bottom_header {
+        margin-top: 4rem;
+    }
+
+    .food_order_action {
+        max-width: 100%;
+    }
+
+    .app_download_section {
+        max-width: 100%;
+        border-radius: 500px 500px 0px 0px;
+    }
+
+    .right_content_app_download {
+        text-align: center;
+        position: relative;
+        top: 75px;
+        max-width: 100%;
+    }
+
+    .app_download_img {
+        grid-column: span 2;
+        text-align: center;
+        margin-top: 9rem;
+    }
+
+    .app_download_img img {
+        left: 0;
+        width: 250px;
+    }
+
+}
+
+@media (max-width: 632px) {
+    .location_section h6 {
+        font-size: 28px;
+    }
+
+    .location_section form {
+        width: 60%;
+    }
+}
+
+@media (max-width: 619px) {
+    .bottom_header {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .food_order_detail_desktop {
+        display: none;
+    }
+
+    .bottom_header_left_content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bottom_header_left_content p {
+        max-width: 100%;
+        margin-bottom: 2rem;
+        font-size: 15px;
+    }
+
+    .bottom_header_left_content h1 {
+        font-size: 42px;
+        margin-bottom: 15px;
+    }
+
+    .bottom_header {
+        margin-top: 2rem;
+    }
+
+    .food_delivery {
+        position: static;
+        max-width: 22%;
+    }
+
+    .food_order_detail {
+        width: 100%;
+        text-align: center;
+    }
+
+    .food_order_action {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .cart_action {
+        max-width: 20%;
+    }
+
+    .order_button {
+        max-width: 30%;
+        padding: 10px 14px;
+    }
+
+
+}
+
+@media (min-width: 620px) {
+    .food_order_detail_mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 611px) {
+    .products_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 470px) {
+    .location_section h6 {
+        font-size: 25px;
+    }
+
+    .location_section p{
+        font-size: 15px;
+    }
+
+    .location_section form{
+        width: 80%;
+    }
+}
